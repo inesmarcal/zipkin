@@ -21,7 +21,7 @@
     <main.basedir>${project.basedir}/../..</main.basedir>
 
     <!-- 3.16 is the last to compile with JDK 11 -->
-    <jooq.version>3.16.23</jooq.version>
+    <jooq.version>3.19.6</jooq.version>
 
     <!-- jOOQ doesn't add the Generated annotation, so we have to explicitly disable rules -->
     <errorprone.args>-Xep:InconsistentCapitalization:OFF</errorprone.args>
@@ -88,7 +88,7 @@
               <driver>org.mariadb.jdbc.Driver</driver>
               <url>jdbc:mariadb://localhost:3306/zipkin</url>
               <user>root</user>
-              <password />
+              <password/>
             </jdbc>
             <generator>
               <generate>
@@ -102,7 +102,7 @@
               <database>
                 <name>org.jooq.meta.mysql.MySQLDatabase</name>
                 <includes>.*</includes>
-                <excludes />
+                <excludes/>
                 <inputSchema>zipkin</inputSchema>
               </database>
               <target>
