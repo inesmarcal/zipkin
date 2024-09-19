@@ -92,7 +92,7 @@
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java</artifactId>
-      <version>3.25.3</version>
+      <version>3.25.5</version>
     </dependency>
 
     <dependency>
@@ -253,7 +253,7 @@
               <!-- instead of javac-with-errorprone -->
               <compilerId>javac</compilerId>
               <!-- scrub errorprone compiler args -->
-              <compilerArgs />
+              <compilerArgs/>
             </configuration>
           </execution>
         </executions>
